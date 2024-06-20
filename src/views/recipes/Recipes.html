@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VKellog's</title>
+    <link rel="stylesheet" href="./Recipes.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../../assets/Spilled Cereal Bowl.svg" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo-container">
+        <img class="logo" src="../../assets/Logo.svg" />
+      </div>
+
+      <input class="mobile-menu" type="checkbox" id="mobile-menu" />
+      <label class="hamburger" for="mobile-menu">
+        <div class="ham-button"></div>
+      </label>
+
+      <div class="menu">
+        <ul class="page-link">
+          <li class="link-container">
+            <a class="link" href="../../index.html">Home</a>
+          </li>
+          <li class="link-container">
+            <a class="link" href="../products/Products.html">Products</a>
+          </li>
+          <li>
+            <a class="origin" href="#">Recipes</a>
+          </li>
+          <li class="link-container">
+            <a class="link" href="../about-us/AboutUs.html">About Us</a>
+          </li>
+          <li class="link-container">
+            <a class="link" href="../contact_us/ContactUs.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="banner-container">
+        <div class="banner-content">
+          <div class="banner-text">
+            <div class="banner-text-content">
+              <h2>Recipes</h2>
+              <h1>Recipe Inspiration</h1>
+              <p>
+                Whether you're after an old favourite or inspiration for
+                something new, we have the perfect recipe.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img src="../../assets/Recipes/Recipe Banner.png" alt="" />
+      </div>
+
+      <div class="recipe-container">
+        <div class="recipe-header">
+          <div class="recipe-title">
+            <h1 id="recipe-title">Breakfast Recipes</h1>
+            <p id="recipe-subtitle">Start Your Day Right</p>
+          </div>
+          <div class="recipe-toggle">
+            <label for="breakfast-input" role="tab" tabindex="0" id="breakfast-toggle">View Breakfast Recipe</label>
+            <label for="snack-input" role="tab" tabindex="0" id="snack-toggle">View Snacks Recipe</label>
+            <label for="dessert-input" role="tab" tabindex="0" id="dessert-toggle">View Desserts Recipe</label>
+          </div>
+        </div>
+        
+          <div class="recipes" id="breakfast-recipe">
+            <input
+                type="radio"
+                class="recipe-switch"
+                name="tabs"
+                id="breakfast-input"
+                checked
+              />
+            <div class="recipe-card">
+              <div class="card-content">
+                <img src="../../assets/Recipes/Almost Smores.png" alt="" />
+
+                <div class="recipe-desc">
+                  <p class="recipe-name">Almost S'mores</p>
+                  <p class="recipe-detail">5 MIN | 1 SERVING</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe-card">
+              <div class="card-content">
+                <img src="../../assets/Recipes/Granola Carrot Bread.png" alt="" />
+
+                <div class="recipe-desc">
+                  <p class="recipe-name">Granola Carrot Bread </p>
+                  <p class="recipe-detail">10 MIN | 8 SERVINGS</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe-card">
+              <div class="card-content">
+                <img src="../../assets/Recipes/Greek Yoghurt Bowl.png" alt="" />
+
+                <div class="recipe-desc">
+                  <p class="recipe-name">Greek Yoghurt Bowl</p>
+                  <p class="recipe-detail">5 MIN | 1 SERVINGS</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe-card">
+              <div class="card-content">
+                <img src="../../assets/Recipes/Carrot Cake Muffins.png" alt="" />
+
+                <div class="recipe-desc">
+                  <p class="recipe-name">Carrot Cake Muffins</p>
+                  <p class="recipe-detail">20 MIN | 12 SERVINGS</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe-card">
+              <div class="card-content">
+                <img src="../../assets/Recipes/Apple Pie Overnight Wheat Biscuits.png" alt="" />
+
+                <div class="recipe-desc">
+                  <p class="recipe-name">Apple Pie Overnight Wheat Biscuits</p>
+                  <p class="recipe-detail">10 MIN | 2 SERVINGS</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe-card">
+              <div class="card-content">
+                <img src="../../assets/Recipes/Waffilicious Corn Flakes.png" alt="" />
+
+                <div class="recipe-desc">
+                  <p class="recipe-name">Waffilicious Corn Flakes</p>
+                  <p class="recipe-detail">10 MIN | 1 SERVING</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe-card">
+              <div class="card-content">
+                <img src="../../assets/Recipes/Granola Breakfast Crunchies.png" alt="" />
+
+                <div class="recipe-desc">
+                  <p class="recipe-name">Granola Breakfast Crunchies</p>
+                  <p class="recipe-detail">40 MIN | 15 SERVING</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="recipe-card">
+              <div class="card-content">
+                <img src="../../assets/Recipes/Triple-Layer Flavoured Yoghurt Tarts.png" alt="" />
+
+                <div class="recipe-desc">
+                  <p class="recipe-name">Triple-Layer Flavoured Yoghurt Tarts</p>
+                  <p class="recipe-detail">210 MIN | 12 SERVING</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        
+        <div class="recipes" id="snack-recipe">
+          <input
+              type="radio"
+              class="recipe-switch"
+              name="tabs"
+              id="snack-input"
+              checked
+            />
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/After School Muffins.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">After School Muffins</p>
+                <p class="recipe-detail">10 MIN | 12 SERVINGS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/Banana Bread Muffins.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">Banana Bread Muffins</p>
+                <p class="recipe-detail">10 MIN | 12 SERVINGS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/Buttermilk Biscuit.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">Buttermilk Biscuits</p>
+                <p class="recipe-detail">10 MIN | 10 SERVINGS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/All Bran Date and Spice Muffins.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">All Bran Date and Spice Muffins</p>
+                <p class="recipe-detail">15 MIN | 6 SERVINGS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/Baked Pumpkin Scones.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">Baked Pumpkin Scones</p>
+                <p class="recipe-detail">10 MIN | 12 SERVINGS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/Frozen Granola Yogurt.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">Frozen Granola Yogurt </p>
+                <p class="recipe-detail">5 MIN | 1 SERVING</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/Baked Granola Scones.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">Baked Granola Scones</p>
+                <p class="recipe-detail">30 MIN | 8 SERVING</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/Chocolate Banana Crumble Muffins.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">Chocolate Banana Crumble Muffins</p>
+                <p class="recipe-detail">45 MIN | 24 SERVING</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      
+        <div class="recipes" id="dessert-recipe">
+          <input
+              type="radio"
+              class="recipe-switch"
+              name="tabs"
+              id="dessert-input"
+              checked
+            />
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/Frozen Strawberry Yoghurt Slice.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">Frozen Strawberry Yoghurt Slice</p>
+                <p class="recipe-detail">50 MIN | 10 SERVING</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/Fried Ice Cream Bars.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">"Fried" Ice Cream Bars</p>
+                <p class="recipe-detail">20 MIN | 16 SERVINGS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/Almond Crunch Pudding.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">Almond Crunch Pudding</p>
+                <p class="recipe-detail">20 MIN | 16 SERVINGS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/All Bran Cheesecake.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">All Bran Cheesecake</p>
+                <p class="recipe-detail">20 MIN | 8 SERVINGS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/Corn Flakes Apricot Smoothie.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">Corn Flakes Apricot Smoothie</p>
+                <p class="recipe-detail">5 MIN | 1 SERVING</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/Apple Crumble Milk Tart.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">Apple Crumble Milk Tart</p>
+                <p class="recipe-detail">30 MIN | 8 SERVINGS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/Peanut Butter Cookies.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">Peanut Butter Cookies</p>
+                <p class="recipe-detail">15 MIN | 20 SERVINGS</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="recipe-card">
+            <div class="card-content">
+              <img src="../../assets/Recipes/Frozen Chocolate Banana Popsicles.png" alt="" />
+
+              <div class="recipe-desc">
+                <p class="recipe-name">Frozen Chocolate Banana Popsicles</p>
+                <p class="recipe-detail">15 MIN | 6 SERVING</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="content">
+          <div class="logo-box">
+            <a href="../../index.html"
+              ><img src="../../assets/Logo (white).svg" alt=""
+            /></a>
+          </div>
+
+          <div class="information">
+            <div class="reach-us info">
+              <p class="footer-txt footer-subtitle">Reach Us</p>
+              <div class="reach-us-info">
+                <img src="../../assets/Icn Phone.svg" alt="" />
+                <p class="footer-txt">+62 855 6432 80818</p>
+              </div>
+              <div class="reach-us-info">
+                <img src="../../assets/Icn Email.svg" alt="" />
+                <p class="footer-txt">vkellogg@gmail.com</p>
+              </div>
+              <div class="reach-us-info">
+                <img src="../../assets/Icn Location.svg" alt="" />
+                <p class="footer-txt location-txt">
+                  Jl. Kebon Jeruk Raya No. 27, Kebon Jeruk, Jakarta Barat 11530,
+                  Indonesia
+                </p>
+              </div>
+            </div>
+
+            <div class="legal info">
+              <p class="footer-txt footer-subtitle">Legal</p>
+              <ul>
+                <li class="footer-txt footer-info-links">Privacy Policy</li>
+                <li class="footer-txt footer-info-links">Terms & Services</li>
+                <li class="footer-txt footer-info-links">Terms of Use</li>
+                <li class="footer-txt footer-info-links">Refund Policy</li>
+              </ul>
+            </div>
+
+            <div class="quick-link info">
+              <p class="footer-txt footer-subtitle">Quick Links</p>
+              <ul>
+                <li class="footer-txt">
+                  <a
+                    class="footer-txt footer-info-links"
+                    href="../about-us/AboutUs.html"
+                    >About</a
+                  >
+                </li>
+                <li class="footer-txt">
+                  <a
+                    class="footer-txt footer-info-links"
+                    href="../contact_us/ContactUs.html"
+                    >Contact</a
+                  >
+                </li>
+                <li class="footer-txt">
+                  <a
+                    class="footer-txt footer-info-links"
+                    href="../products/Products.html"
+                    >Products</a
+                  >
+                </li>
+                <li class="footer-txt">
+                  <a
+                    class="footer-txt footer-info-links"
+                    href="../recipes/Recipes.html"
+                    >Recipes</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="newsletter-sosmed">
+              <div class="newsletter-container">
+                <div class="newsletter-content">
+                  <p class="footer-txt footer-subtitle">Join Our Newsletter</p>
+                  <form class="newsletter-form" id="newsletter">
+                    <div class="input-email">
+                      <input
+                        type="text"
+                        name=""
+                        id="email-newsletter"
+                        placeholder="Your email address"
+                      />
+                      <div class="subscribe" id="subscribe">
+                        <img src="../../assets/Icn Send.svg" alt="" />
+                      </div>
+                    </div>
+                    <p class="description">
+                      * Will send you weekly updates for your better tool
+                      management.
+                    </p>
+                  </form>
+                </div>
+              </div>
+
+              <div class="sosmed-container">
+                <div class="sosmed-icon">
+                  <a href="https://www.facebook.com/" target="_blank"
+                    ><img src="../../assets/Icn Fb.svg" alt=""
+                  /></a>
+                  <a href="https://x.com/" target="_blank"
+                    ><img src="../../assets/Icn Twt.svg" alt=""
+                  /></a>
+                  <a href="https://www.instagram.com/" target="_blank"
+                    ><img src="../../assets/Icn Ig.svg" alt=""
+                  /></a>
+                  <a href="https://www.discord.com/" target="_blank"
+                    ><img src="../../assets/Icn Dc.svg" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright-container">
+            <p class="copyright-txt">
+              Copyright © 2024 . 2602105090-Jennifer Ardelia Limicia, All Right
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./Recipe.js"></script>
+  </body>
+</html>

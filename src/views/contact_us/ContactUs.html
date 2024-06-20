@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VKellog's</title>
+    <link rel="stylesheet" href="./ContactUs.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="../../assets/Spilled Cereal Bowl.svg" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo-container">
+        <img class="logo" src="../../assets/Logo.svg" />
+      </div>
+
+      <input class="mobile-menu" type="checkbox" id="mobile-menu" />
+      <label class="hamburger" for="mobile-menu">
+        <div class="ham-button"></div>
+      </label>
+
+      <div class="menu">
+        <ul class="page-link">
+          <li class="link-container">
+            <a class="link" href="../../index.html">Home</a>
+          </li>
+          <li class="link-container">
+            <a class="link" href="../products/Products.html">Products</a>
+          </li>
+          <li class="link-container">
+            <a class="link" href="../recipes/Recipes.html">Recipes</a>
+          </li>
+          <li class="link-container">
+            <a class="link" href="../about-us/AboutUs.html">About Us</a>
+          </li>
+          <li>
+            <a class="origin" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="main">
+      <div class="contact-us-container">
+        <div class="title">
+          <h1>Contact Us</h1>
+          <p>Have a question or feedback? Drop us a message!</p>
+        </div>
+
+        <div class="form-container">
+          <div class="form-content">
+            <form action="" id="contact-us">
+              <div class="input-merge">
+                <div class="form-input">
+                  <label for="first-name">First Name</label>
+                  <input class="data-input" type="text" name="first-name" id="first-name" placeholder="Input your first name" required>
+                </div>
+  
+                <div class="form-input">
+                  <label for="last-name">Last Name</label>
+                  <input class="data-input" type="text" name="last-name" id="last-name" placeholder="Input your last name" required>
+                </div>
+              </div>
+              
+              <div class="input-merge">
+                <div class="form-input">
+                  <label for="email">Email</label>
+                  <input class="data-input" type="email" name="email" id="email" placeholder="Input your email" required>
+                </div>
+  
+                <div class="form-input">
+                  <label for="phone">Phone Number</label>
+                  <input class="data-input" type="tel" name="phone" id="phone" inputmode="numeric" placeholder="Input your phone number" required>
+                </div>
+              </div>
+
+              <div class="form-input">
+                <label>Select Nature of Inquiry</label>
+                <div class="inquiry-choice">
+                  <div>
+                    <input type="radio" name="inquiry" id="product-info" value="Product Information" required>
+                    <label class="inquiry-label" for="product-info">Product Information</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="inquiry" id="order-status" value="Order Status" required>
+                    <label class="inquiry-label" for="order-status">Order Status</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="inquiry" id="ship&del" value="Shipping & Delivery" required>
+                    <label class="inquiry-label" for="ship&del">Shipping & Delivery</label>
+                  </div>
+                  <div><input type="radio" name="inquiry" id="feedback" value="Feedback" required>
+                    <label class="inquiry-label" for="feedback">Feedback</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="inquiry" id="other" value="Other" required>
+                    <label class="inquiry-label" for="other">Other</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="message-input">
+                <label for="message">Message</label>
+                <input class="input-message" type="text" name="message" id="message" placeholder="Write your message..." required>
+              </div>
+
+              <div class="submit-button"><button type="button" id="submit-button">Send Message</button></div>
+            </form>
+
+            <div class="form-pict">
+              <img src="../../assets/Mail Sent.svg" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="content">
+          <div class="logo-box">
+            <a href="../../index.html"><img src="../../assets/Logo (white).svg" alt=""></a>
+          </div>
+
+          <div class="information">
+            <div class="reach-us info">
+              <p class="footer-txt footer-subtitle">Reach Us</p>
+              <div class="reach-us-info">
+                <img src="../../assets/Icn Phone.svg" alt="">
+                <p class="footer-txt">+62 855 6432 80818</p>
+              </div>
+              <div class="reach-us-info">
+                <img src="../../assets/Icn Email.svg" alt="">
+                <p class="footer-txt">vkellogg@gmail.com</p>
+              </div>
+              <div class="reach-us-info">
+                <img src="../../assets/Icn Location.svg" alt="">
+                <p class="footer-txt location-txt">Jl. Kebon Jeruk Raya No. 27, Kebon Jeruk, Jakarta Barat 11530, Indonesia</p>
+              </div>
+            </div>
+
+            <div class="legal info">
+              <p class="footer-txt footer-subtitle">Legal</p>
+              <ul>
+                <li class="footer-txt footer-info-links">Privacy Policy</li>
+                <li class="footer-txt footer-info-links">Terms & Services</li>
+                <li class="footer-txt footer-info-links">Terms of Use</li>
+                <li class="footer-txt footer-info-links">Refund Policy</li>
+              </ul>
+            </div>
+
+            <div class="quick-link info">
+              <p class="footer-txt footer-subtitle">Quick Links</p>
+              <ul>
+                <li class="footer-txt"><a class="footer-txt footer-info-links" href="../about-us/AboutUs.html">About</a></li>
+                <li class="footer-txt"><a class="footer-txt footer-info-links" href="../contact_us/ContactUs.html">Contact</a></li>
+                <li class="footer-txt"><a class="footer-txt footer-info-links" href="../products/Products.html">Products</a></li>
+                <li class="footer-txt"><a class="footer-txt footer-info-links" href="../recipes/Recipes.html">Recipes</a></li>
+              </ul>
+            </div>
+
+            <div class="newsletter-sosmed">
+              <div class="newsletter-container">
+                <div class="newsletter-content">
+                  <p class="footer-txt footer-subtitle">Join Our Newsletter</p>
+                  <form class="newsletter-form" id="newsletter">
+                    <div class="input-email">
+                      <input type="text" name="" id="email-newsletter" placeholder="Your email address">
+                      <div class="subscribe" id="subscribe">
+                        <img src="../../assets/Icn Send.svg" alt="">
+                      </div>
+                    </div>
+                    <p class="description">*  Will send you weekly updates for your better tool management.</p>
+                  </form>
+                </div>
+              </div>
+
+              <div class="sosmed-container">
+                <div class="sosmed-icon">
+                  <a href="https://www.facebook.com/" target="_blank"
+                    ><img src="../../assets/Icn Fb.svg" alt=""
+                  /></a>
+                  <a href="https://x.com/" target="_blank"
+                    ><img src="../../assets/Icn Twt.svg" alt=""
+                  /></a>
+                  <a href="https://www.instagram.com/" target="_blank"
+                    ><img src="../../assets/Icn Ig.svg" alt=""
+                  /></a>
+                  <a href="https://www.discord.com/" target="_blank"
+                    ><img src="../../assets/Icn Dc.svg" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright-container">
+            <p class="copyright-txt">Copyright ©  2024 . 2602105090-Jennifer Ardelia Limicia, All Right Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./ContactUs.js"></script>
+  </body>
+</html>
